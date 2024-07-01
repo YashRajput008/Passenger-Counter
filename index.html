@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Passenger Counter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="title">People Entered</h1>
+
+    <div id="counter">0</div>
+
+    <div class="buttons">
+      <button onclick="increment()" id="increment">INCREMENT</button>
+
+      <button onclick="save()" id="save">SAVE</button>
+
+      <button onclick="reset()" id="reset">RESET</button>
+    </div>
+
+    <div class="saveView">Save List:</div>
+    <div id="saveList">Nothing Saved</div>
+    <script src="main.js"></script>
+  </body>
+</html>
